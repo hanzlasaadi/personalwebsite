@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!--==================== SWIPER JS ====================-->
-    <script src="assets/js/swiper-bundle.min.js"></script>
+    <script src="assets/js/swiper-bundle.min.js" defer></script>
 
     <!--==================== MAIN JS ====================-->
     <script src="assets/js/main.js" defer></script>
@@ -22,13 +22,13 @@
     <!--==================== CSS ====================-->
     <link rel="stylesheet" href="assets/css/styles.css" />
 
-    <title>Hanzla Saadi</title>
+    <title>Hanzla Saadi's Portfolio</title>
   </head>
   <body>
     <!--==================== HEADER ====================-->
     <header class="header" id="header">
       <nav class="nav container">
-        <a href="#" class="nav__logo">Hanzla</a>
+        <a href="#" class="nav__logo">Hanzla Saadi</a>
         <div class="nav__menu" id="nav-menu">
           <ul class="nav__list grid">
             <li class="nav__item">
@@ -84,6 +84,16 @@
           <div class="home__content grid">
             <div class="home__social">
               <a
+                name="Send Email"
+                title="Send Email"
+                href="mailto:hanzalasaadi@gmail.com"
+                target="_blank"
+                class="home__social-icon"
+              >
+                <i class="uil uil-envelope-alt"></i>
+              </a>
+              <a
+                title="Linked-In Profile"
                 href="https://www.linkedin.com/in/hanzla-saadi-47a263235/?original_referer="
                 target="_blank"
                 class="home__social-icon"
@@ -91,6 +101,7 @@
                 <i class="uil uil-linkedin-alt"></i>
               </a>
               <a
+                title="Twitter Account"
                 href="https://twitter.com/hanzla_saadi"
                 target="_blank"
                 class="home__social-icon"
@@ -98,6 +109,15 @@
                 <i class="uil uil-twitter-alt"></i>
               </a>
               <a
+                title="Social Links"
+                href="https://bio.link/hansaadi"
+                target="_blank"
+                class="home__social-icon"
+              >
+                <i class="uil uil-star"></i>
+              </a>
+              <a
+                title="Github Profile"
                 href="https://github.com/hanzlasaadi"
                 target="_blank"
                 class="home__social-icon"
@@ -132,21 +152,25 @@
                     class="home__blob-img"
                     x="12"
                     y="18"
-                    xlink:href="assets/img/perfil.png"
+                    xlink:href="assets/img/profile-pic2.png"
                   />
                 </g>
               </svg>
             </div>
 
             <div class="home__data">
-              <h1 class="home__title">Hi, I'm Hanzla</h1>
-              <h3 class="home__subtitle">Frontend Developer</h3>
-              <p class="home__description">
+              <h1 class="home__title">
+                Hi, I'm Hanzla, Your Next Software Engineer
+              </h1>
+              <h3 class="home__subtitle">
+                Let's change the world a semicolon by semicolon.
+              </h3>
+              <!-- <p class="home__description">
                 High level expertise in frontend web design and extensive
                 knowledge in HTML, CSS and JavaScript.
-              </p>
+              </p> -->
               <a href="#contact" class="button button--flex">
-                Contact Me&nbsp;<i class="uil uil-message"></i>
+                Connect&nbsp;<i class="uil uil-message"></i>
               </a>
             </div>
           </div>
@@ -163,38 +187,47 @@
 
       <!--==================== ABOUT ====================-->
       <section class="about section" id="about">
-        <h2 class="section__title">About Me</h2>
+        <h2 class="section__title">Meet Me</h2>
         <span class="section__subtitle">My introduction</span>
 
         <div class="about__container container grid">
-          <img src="assets/img/about.jpg" class="about__img" />
+          <img src="assets/img/profile-vertical.jpg" class="about__img" />
           <div class="about__data">
             <p class="about__description">
-              Web developer, with extensive knowledge and years of experience,
-              working in web technologies and Ui / Ux design, delivering quality
-              work.
+              Hi, I'm Hanzla. I’m a community-taught web developer at 100Devs
+              with the background in computer science as an undergraduate. I am
+              exceptionally passionate about coding and this passion always
+              leads me to think about solving complex problems even while I'm
+              eating Biryani, travelling.
+              <br /><br />
+              In my 2 years as a software engineer, I’ve learned JavaScript (OOP
+              and DOM Manipulation), SQL, CSS, Bootstrap, Git/Github and gained
+              proficiency in front-end web development. I have contributed to
+              several open-source projects for experience and fun. I have also
+              built my own projects which I'm very proud of and currently
+              working on some.
             </p>
 
             <div class="about__info">
               <div>
                 <span class="about__info-title">08+</span>
                 <span class="about__info-name"
-                  >Years <br />
-                  experience</span
+                  >Certifications <br />
+                  Acquired</span
                 >
               </div>
               <div>
                 <span class="about__info-title">20+</span>
                 <span class="about__info-name"
                   >Completed <br />
-                  project</span
+                  projects</span
                 >
               </div>
               <div>
-                <span class="about__info-title">05+</span>
+                <span class="about__info-title">04+</span>
                 <span class="about__info-name"
-                  >Companies <br />
-                  worked</span
+                  >Languages <br />
+                  learned</span
                 >
               </div>
             </div>
@@ -221,8 +254,8 @@
                 <i class="uil uil-brackets-curly skills__icon"></i>
 
                 <div>
-                  <h1 class="skills__title">Frontend Developer</h1>
-                  <span class="skills__subtitle">4 Years<</span>
+                  <h1 class="skills__title">Frontend Development</h1>
+                  <!-- <span class="skills__subtitle">4 Years<</span> -->
                 </div>
 
                 <i class="uil uil-angle-down skills__arrow"></i>
@@ -259,10 +292,19 @@
                 <div class="skills__data">
                   <div class="skills__title">
                     <h3 class="skills__name">React</h3>
-                    <span class="skills__number">60%</span>
+                    <span class="skills__number">45%</span>
                   </div>
                   <div class="skills__bar">
                     <span class="skills__percentage skills__react"></span>
+                  </div>
+                </div>
+                <div class="skills__data">
+                  <div class="skills__title">
+                    <h3 class="skills__name">Bootstrap</h3>
+                    <span class="skills__number">65%</span>
+                  </div>
+                  <div class="skills__bar">
+                    <span class="skills__percentage skills__bootstrap"></span>
                   </div>
                 </div>
               </div>
@@ -273,8 +315,8 @@
               <div class="skills__header">
                 <i class="uil uil-server-network skills__icon"></i>
                 <div>
-                  <h1 class="skills__title">Backend Developer</h1>
-                  <span class="skills__subtitle">2 Years<</span>
+                  <h1 class="skills__title">Backend Development</h1>
+                  <!-- <span class="skills__subtitle">2 Years<</span> -->
                 </div>
 
                 <i class="uil uil-angle-down skills__arrow"></i>
@@ -283,17 +325,17 @@
               <div class="skills__list grid">
                 <div class="skills__data">
                   <div class="skills__title">
-                    <h3 class="skills__name">PHP</h3>
-                    <span class="skills__number">60%</span>
+                    <h3 class="skills__name">mySQL</h3>
+                    <span class="skills__number">75%</span>
                   </div>
                   <div class="skills__bar">
-                    <span class="skills__percentage skills__php"></span>
+                    <span class="skills__percentage skills__sql"></span>
                   </div>
                 </div>
                 <div class="skills__data">
                   <div class="skills__title">
                     <h3 class="skills__name">Node JS</h3>
-                    <span class="skills__number">70%</span>
+                    <span class="skills__number">55%</span>
                   </div>
                   <div class="skills__bar">
                     <span class="skills__percentage skills__node"></span>
@@ -301,17 +343,17 @@
                 </div>
                 <div class="skills__data">
                   <div class="skills__title">
-                    <h3 class="skills__name">Firebase</h3>
-                    <span class="skills__number">70%</span>
+                    <h3 class="skills__name">MongoDB</h3>
+                    <span class="skills__number">45%</span>
                   </div>
                   <div class="skills__bar">
-                    <span class="skills__percentage skills__firebase"></span>
+                    <span class="skills__percentage skills__mongodb"></span>
                   </div>
                 </div>
                 <div class="skills__data">
                   <div class="skills__title">
                     <h3 class="skills__name">Python</h3>
-                    <span class="skills__number">90%</span>
+                    <span class="skills__number">70%</span>
                   </div>
                   <div class="skills__bar">
                     <span class="skills__percentage skills__python"></span>
@@ -327,8 +369,8 @@
               <div class="skills__header">
                 <i class="uil uil-swatchbook skills__icon"></i>
                 <div>
-                  <h1 class="skills__title">Designer</h1>
-                  <span class="skills__subtitle">2 Years<</span>
+                  <h1 class="skills__title">Designing & Version Control</h1>
+                  <!-- <span class="skills__subtitle">2 Years<</span> -->
                 </div>
 
                 <i class="uil uil-angle-down skills__arrow"></i>
@@ -344,24 +386,24 @@
                     <span class="skills__percentage skills__figma"></span>
                   </div>
                 </div>
-                <!-- Sketch -->
-                <div class="skills__data">
-                  <div class="skills__title">
-                    <h3 class="skills__name">Sketch</h3>
-                    <span class="skills__number">70%</span>
-                  </div>
-                  <div class="skills__bar">
-                    <span class="skills__percentage skills__sketch"></span>
-                  </div>
-                </div>
                 <!-- Photoshop -->
                 <div class="skills__data">
                   <div class="skills__title">
                     <h3 class="skills__name">Photoshop</h3>
-                    <span class="skills__number">90%</span>
+                    <span class="skills__number">85%</span>
                   </div>
                   <div class="skills__bar">
                     <span class="skills__percentage skills__photoshop"></span>
+                  </div>
+                </div>
+                <!-- Git -->
+                <div class="skills__data">
+                  <div class="skills__title">
+                    <h3 class="skills__name">Git & Github</h3>
+                    <span class="skills__number">95%</span>
+                  </div>
+                  <div class="skills__bar">
+                    <span class="skills__percentage skills__git"></span>
                   </div>
                 </div>
               </div>
@@ -373,7 +415,7 @@
       <!--==================== QUALIFICATION ====================-->
       <section class="qualification section">
         <h2 class="section__title">Qualifications</h2>
-        <span class="section__subtitle">My Eloquent Journey</span>
+        <span class="section__subtitle">My bewildering Journey</span>
 
         <div class="qualification__container container">
           <div class="qualification__tabs">
@@ -400,12 +442,15 @@
             >
               <!-- qualification 1 -->
               <div class="qualification__data">
+                <!-- Matriculation -->
                 <div>
-                  <h3 class="qualification__title">Computer Engineering</h3>
-                  <span class="qualification__subtitle">Peru - University</span>
+                  <h3 class="qualification__title">Matriculation</h3>
+                  <span class="qualification__subtitle"
+                    >KIPS School - Lahore</span
+                  >
                   <div class="qualification__calendar">
                     <i class="uil uil-calendar-alt"></i>
-                    2009 - 2014
+                    2017 - 2019
                   </div>
                 </div>
 
@@ -423,13 +468,15 @@
                   <span class="qualification__rounder"></span>
                   <span class="qualification__line"></span>
                 </div>
-
+                <!-- FSc -->
                 <div>
-                  <h3 class="qualification__title">Web Design</h3>
-                  <span class="qualification__subtitle">Spain - Institute</span>
+                  <h3 class="qualification__title">FSc Pre-Engineering</h3>
+                  <span class="qualification__subtitle"
+                    >KIPS College - Lahore</span
+                  >
                   <div class="qualification__calendar">
                     <i class="uil uil-calendar-alt"></i>
-                    2014 - 2007
+                    2019 - 2021
                   </div>
                 </div>
               </div>
@@ -437,27 +484,30 @@
               <!-- qualification 3 -->
               <div class="qualification__data">
                 <div>
-                  <h3 class="qualification__title">Web Development</h3>
-                  <span class="qualification__subtitle">Peru - Institue</span>
+                  <h3 class="qualification__title">
+                    Bachelors in Computer Science
+                  </h3>
+                  <span class="qualification__subtitle"
+                    >University of South Asia</span
+                  >
                   <div class="qualification__calendar">
                     <i class="uil uil-calendar-alt"></i>
-                    2017 - 2020
+                    2021 - 2025
                   </div>
                 </div>
 
                 <div>
                   <span class="qualification__rounder"></span>
-                  <span class="qualification__line"></span>
                 </div>
               </div>
 
               <!-- qualification 4 -->
-              <div class="qualification__data">
+              <!-- <div class="qualification__data">
                 <div></div>
 
                 <div>
                   <span class="qualification__rounder"></span>
-                  <!-- <span class="qualification__line"></span> -->
+                  <span class="qualification__line"></span> 
                 </div>
 
                 <div>
@@ -468,7 +518,7 @@
                     2020 - 2022
                   </div>
                 </div>
-              </div>
+              </div> -->
             </div>
 
             <!-- Content #2 -->
@@ -476,11 +526,13 @@
               <!-- qualification 1 -->
               <div class="qualification__data">
                 <div>
-                  <h3 class="qualification__title">Software Engineering</h3>
-                  <span class="qualification__subtitle">Peru - Microsoft</span>
+                  <h3 class="qualification__title">Resilient Coders</h3>
+                  <span class="qualification__subtitle"
+                    >Boston - Massachusetts</span
+                  >
                   <div class="qualification__calendar">
                     <i class="uil uil-calendar-alt"></i>
-                    2016 - 2018
+                    2021 - 2022
                   </div>
                 </div>
 
@@ -496,35 +548,15 @@
 
                 <div>
                   <span class="qualification__rounder"></span>
-                  <span class="qualification__line"></span>
                 </div>
 
                 <div>
-                  <h3 class="qualification__title">Frontend Developer</h3>
-                  <span class="qualification__subtitle"
-                    >Apple Inc. - Spain</span
-                  >
+                  <h3 class="qualification__title">Freelance Developer</h3>
+                  <span class="qualification__subtitle">Fiverr, Upwork</span>
                   <div class="qualification__calendar">
                     <i class="uil uil-calendar-alt"></i>
-                    2018 - 2020
+                    since 2021
                   </div>
-                </div>
-              </div>
-
-              <!-- qualification 3 -->
-              <div class="qualification__data">
-                <div>
-                  <h3 class="qualification__title">Ui Designer</h3>
-                  <span class="qualification__subtitle">Figma - Spain</span>
-                  <div class="qualification__calendar">
-                    <i class="uil uil-calendar-alt"></i>
-                    2017 - 2020
-                  </div>
-                </div>
-
-                <div>
-                  <span class="qualification__rounder"></span>
-                  <!-- <span class="qualification__line"></span> -->
                 </div>
               </div>
             </div>
@@ -537,13 +569,13 @@
         <h2 class="section__title">Services</h2>
         <span class="section__subtitle">What I Offer</span>
         <div class="services__container container grid">
-          <!--==================== SERVICE #1====================-->
+          <!--==================== SERVICE #1 Web App Dev====================-->
           <div class="services__content">
             <div>
-              <i class="uil uil-web-grid services__icon"></i>
+              <i class="uil uil-brackets-curly services__icon"></i>
               <h3 class="services__title">
-                Ui/Ux <br />
-                Designer
+                Web App <br />
+                Development
               </h3>
             </div>
 
@@ -557,8 +589,8 @@
             <div class="services__modal">
               <div class="services__modal-content">
                 <h4 class="services__modal-title">
-                  Ui/Ux <br />
-                  Designer
+                  Web App <br />
+                  Development
                 </h4>
                 <i class="uil uil-times services__modal-close"></i>
                 <ul class="services__modal-services grid">
@@ -568,28 +600,28 @@
                   </li>
                   <li class="services__modal-service">
                     <i class="uil uil-check-circle services__modal-icon"></i>
-                    <p>Web Page Development</p>
+                    <p>Front-end and Back-end Development</p>
                   </li>
                   <li class="services__modal-service">
                     <i class="uil uil-check-circle services__modal-icon"></i>
-                    <p>I create UX element interactions</p>
+                    <p>Creating wireframes & UI/UX element interactions</p>
                   </li>
                   <li class="services__modal-service">
                     <i class="uil uil-check-circle services__modal-icon"></i>
-                    <p>I position your company brand.</p>
+                    <p>Creating Full Stack Web Applicaations</p>
                   </li>
                 </ul>
               </div>
             </div>
           </div>
 
-          <!--==================== SERVICE #2====================-->
+          <!--==================== SERVICE #2 UI/UX====================-->
           <div class="services__content">
             <div>
-              <i class="uil uil-arrow services__icon"></i>
+              <i class="uil uil-web-grid services__icon"></i>
               <h3 class="services__title">
-                Frontend <br />
-                Developer
+                UI/UX <br />
+                Design
               </h3>
             </div>
 
@@ -602,10 +634,7 @@
 
             <div class="services__modal">
               <div class="services__modal-content">
-                <h4 class="services__modal-title">
-                  Frontend <br />
-                  Developer
-                </h4>
+                <h4 class="services__modal-title">UI/UX Design</h4>
                 <i class="uil uil-times services__modal-close"></i>
                 <ul class="services__modal-services grid">
                   <li class="services__modal-service">
@@ -614,7 +643,7 @@
                   </li>
                   <li class="services__modal-service">
                     <i class="uil uil-check-circle services__modal-icon"></i>
-                    <p>Web Page Development</p>
+                    <p>Human-centered approach to all design decisions</p>
                   </li>
                   <li class="services__modal-service">
                     <i class="uil uil-check-circle services__modal-icon"></i>
@@ -622,7 +651,10 @@
                   </li>
                   <li class="services__modal-service">
                     <i class="uil uil-check-circle services__modal-icon"></i>
-                    <p>I position your company brand.</p>
+                    <p>
+                      Products are custom built for the target audience and is
+                      easy-to-navigate
+                    </p>
                   </li>
                 </ul>
               </div>
@@ -631,10 +663,10 @@
           <!--==================== SERVICE #3====================-->
           <div class="services__content">
             <div>
-              <i class="uil uil-pen services__icon"></i>
+              <i class="uil uil-tablet services__icon"></i>
               <h3 class="services__title">
-                Branding <br />
-                Designer
+                Responsive <br />
+                Design
               </h3>
             </div>
 
@@ -647,27 +679,22 @@
 
             <div class="services__modal">
               <div class="services__modal-content">
-                <h4 class="services__modal-title">
-                  Branding <br />
-                  Designer
-                </h4>
+                <h4 class="services__modal-title">Responsive Design</h4>
                 <i class="uil uil-times services__modal-close"></i>
                 <ul class="services__modal-services grid">
                   <li class="services__modal-service">
                     <i class="uil uil-check-circle services__modal-icon"></i>
-                    <p>I develop the user interface</p>
+                    <p>
+                      Built to look and perform beautifully on all types of
+                      devices
+                    </p>
                   </li>
                   <li class="services__modal-service">
                     <i class="uil uil-check-circle services__modal-icon"></i>
-                    <p>Web Page Development</p>
-                  </li>
-                  <li class="services__modal-service">
-                    <i class="uil uil-check-circle services__modal-icon"></i>
-                    <p>I create UX element interactions</p>
-                  </li>
-                  <li class="services__modal-service">
-                    <i class="uil uil-check-circle services__modal-icon"></i>
-                    <p>I position your company brand.</p>
+                    <p>
+                      Page structure is logical and helps users (and search
+                      engines) to browse efficiently
+                    </p>
                   </li>
                 </ul>
               </div>
@@ -789,13 +816,13 @@
       </section>
 
       <!--==================== TESTIMONIAL ====================-->
-      <section class="testimonial section">
+      <!-- <section class="testimonial section">
         <h2 class="section__title">Testimonials</h2>
         <span class="section__subtitle">My clients' acknowledgements</span>
 
         <div class="testimonial__container container swiper-container">
           <div class="swiper-wrapper">
-            <!--==================== TESTIMONIAL #1 ====================-->
+            ==================== TESTIMONIAL #1 ====================
             <div class="testimonial__content swiper-slide">
               <div class="testimonial__data">
                 <div class="testimonial__header">
@@ -825,7 +852,7 @@
                 possible quality and attention and support 24 hours a day.
               </p>
             </div>
-            <!--==================== TESTIMONIAL #2 ====================-->
+            ==================== TESTIMONIAL #2 ====================
             <div class="testimonial__content swiper-slide">
               <div class="testimonial__data">
                 <div class="testimonial__header">
@@ -855,7 +882,7 @@
                 possible quality and attention and support 24 hours a day.
               </p>
             </div>
-            <!--==================== TESTIMONIAL #3 ====================-->
+            ==================== TESTIMONIAL #3 ====================
             <div class="testimonial__content swiper-slide">
               <div class="testimonial__data">
                 <div class="testimonial__header">
@@ -887,10 +914,10 @@
             </div>
           </div>
 
-          <!-- Pagination -->
+           Pagination
           <div class="swiper-pagination swiper-pagination-testimonial"></div>
         </div>
-      </section>
+      </section>-->
 
       <!--==================== CONTACT ME ====================-->
       <section class="contact section" id="contact">
@@ -902,8 +929,8 @@
             <div class="contact__information">
               <i class="uil uil-phone contact-icon"></i>
               <div>
-                <h3 class="contact__title">Call ME</h3>
-                <span class="contact__subtitle">999-777-666</span>
+                <h3 class="contact__title">Call Me</h3>
+                <span class="contact__subtitle">0311-6107183</span>
               </div>
             </div>
 
@@ -968,7 +995,7 @@
       <div class="footer__bg">
         <div class="footer__container container grid">
           <div>
-            <h1 class="footer__title">Hanzla</h1>
+            <h1 class="footer__title">Hanzla Saadi</h1>
             <span class="footer__subtitle">Frontend Developer</span>
           </div>
 
@@ -980,15 +1007,15 @@
 
           <div class="footer__socials">
             <a href="#" class="footer__social" target="_blank">
-              <i class="uil uil-xxx"></i>
+              <i class="uil uil-facebook-f"></i>
             </a>
 
             <a href="#" class="footer__social" target="_blank">
-              <i class="uil uil-xxx"></i>
+              <i class="uil uil-instagram"></i>
             </a>
 
             <a href="#" class="footer__social" target="_blank">
-              <i class="uil uil-xxx"></i>
+              <i class="uil uil-twitter-alt"></i>
             </a>
           </div>
         </div>
