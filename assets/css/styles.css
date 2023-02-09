@@ -367,6 +367,9 @@ img {
   border-radius: 0.5rem;
   font-weight: var(--font-medium);
 }
+.button--git {
+  float: right;
+}
 
 .button:hover {
   background-color: var(--first-color-alt);
