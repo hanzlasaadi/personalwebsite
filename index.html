@@ -24,6 +24,28 @@
 
     <title>Hanzla Saadi's Portfolio</title>
   </head>
+  <script type="text/javascript">
+    //<![CDATA[
+    var tlJsHost =
+      window.location.protocol == "https:"
+        ? "https://secure.trust-provider.com/"
+        : "http://www.trustlogo.com/";
+    document.write(
+      unescape(
+        "%3Cscript src='" +
+          tlJsHost +
+          "trustlogo/javascript/trustlogo.js' type='text/javascript'%3E%3C/script%3E"
+      )
+    );
+    //]]>
+  </script>
+  <script language="JavaScript" type="text/javascript">
+    TrustLogo(
+      "https://www.positivessl.com/images/seals/positivessl_trust_seal_lg_222x54.png",
+      "POSDV",
+      "none"
+    );
+  </script>
   <body>
     <!--==================== HEADER ====================-->
     <header class="header" id="header">
@@ -998,18 +1020,18 @@
             <div class="contact__inputs grid">
               <div class="contact__content">
                 <label for="" class="contact__label">Name</label>
-                <input type="text" class="contact__input" />
+                <input type="text" class="contact__input" required />
               </div>
 
               <div class="contact__content">
                 <label for="" class="contact__label">Email</label>
-                <input type="email" class="contact__input" />
+                <input type="email" class="contact__input" required />
               </div>
             </div>
 
             <div class="contact__content">
               <label for="" class="contact__label">Project</label>
-              <input type="text" class="contact__input" />
+              <input type="text" class="contact__input" required />
             </div>
             <div class="contact__content">
               <label for="" class="contact__label">Message</label>
